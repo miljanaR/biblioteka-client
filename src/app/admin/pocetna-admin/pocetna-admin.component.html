@@ -1,0 +1,98 @@
+<div class="bg">
+  <br><br><br>
+  <mat-grid-list cols="1" rowHeight="50px">
+    <mat-grid-tile [colspan]=1 [rowspan]=1>
+        <p i18n style="font-size: 30px">Za danasnje preuzimanje:</p>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]=1 [rowspan]=10>
+      <mat-tab-group style="height: 100%; padding: 0px; margin: 0px" [hidden] = "!postojeRezervacije">
+        <mat-tab *ngFor="let rezervacija of rezervacije" label="primerak: {{rezervacija.primerak.id}}"> 
+          <div class="example-large-box mat-elevation-z4">
+            <mat-list role="list">
+              <mat-list-item i18n role="listitem">rezervacija broj: {{rezervacija.idRezervacija}} </mat-list-item>
+              <mat-divider></mat-divider>
+              <mat-list-item i18n role="listitem">datum rezervisanja:  {{rezervacija.datumRezervisanja | date: 'MM-dd-yyyy'}} </mat-list-item>
+              <mat-divider></mat-divider>
+              <mat-list-item i18n role="listitem">datum isteka rezervacije:  {{rezervacija.datumIstekaRezervacije | date: 'MM-dd-yyyy'}}</mat-list-item>
+              <mat-divider></mat-divider>
+              <p i18n style="color: brown; margin-left:10px" > publikacija:  </p>
+              <mat-divider></mat-divider>
+              <mat-list-item role="listitem">isbn: {{rezervacija.primerak.publikacija.isbn}} </mat-list-item>
+              <mat-divider></mat-divider>
+              <mat-list-item i18n role="listitem">naziv: {{rezervacija.primerak.publikacija.nazivPublikacije}} </mat-list-item>
+              <mat-divider></mat-divider>
+              <mat-list-item i18n role="listitem">autor: {{rezervacija.primerak.publikacija.autor}} </mat-list-item>
+              <mat-divider></mat-divider>
+              <button i18n mat-button (click)="details(rezervacija.primerak.id)" style="float: right;" > 
+                <mat-icon>details</mat-icon> detalji
+              </button>
+            </mat-list>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]=1 [rowspan]=1>
+        <p i18n style="font-size: 30px" >Danasnja zaduzenja:</p>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]=1 [rowspan]=10>
+        <mat-tab-group style="height: 100%; padding: 0px; margin: 0px" [hidden] = "!postojeZaduzenjae" >
+          <mat-tab *ngFor="let zaduzenje of zaduzenja" label="primerak: {{zaduzenje.rezervacija.primerak.id}}"> 
+              <div class="example-large-box mat-elevation-z4">
+              <mat-list role="list" >
+                <mat-list-item i18n role="listitem">zaduzenje broj: {{zaduzenje.idZaduzenje}} </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item i18n role="listitem">datum zaduzenja:  {{zaduzenje.datumZaduzenja | date: 'MM-dd-yyyy'}} </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item i18n role="listitem">rok za povratak:  {{zaduzenje.rokZaPovratak | date: 'MM-dd-yyyy'}}</mat-list-item>
+                <mat-divider></mat-divider>
+                <p i18n style="color: brown; margin-left:10px" > publikacija:  </p>
+                <mat-divider></mat-divider>
+                <mat-list-item i18n role="listitem">isbn: {{zaduzenje.rezervacija.primerak.publikacija.isbn}} </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item i18n role="listitem">naziv: {{zaduzenje.rezervacija.primerak.publikacija.nazivPublikacije}} </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item i18n role="listitem">autor: {{zaduzenje.rezervacija.primerak.publikacija.autor}} </mat-list-item>
+                <mat-divider></mat-divider>
+                <button i18n mat-button (click)="info(zaduzenje.rezervacija.primerak.id)" style="float: right;" > 
+                  <mat-icon>details</mat-icon> detalji
+                </button>
+              </mat-list>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]=1 [rowspan]=6>
+          <mat-accordion> 
+            <mat-expansion-panel *ngFor="let obavestenje of obavestenja" >
+              <mat-expansion-panel-header>
+                <mat-panel-title >
+                  <mat-icon>notifications</mat-icon>{{obavestenje.tip}}
+                </mat-panel-title>
+                <mat-panel-description style="color: brown">
+                  {{obavestenje.datum | date: 'MM-dd-yyyy'}}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+                <p>{{obavestenje.tekst}}</p>
+                <button i18n mat-button (click)="getClanInfo(obavestenje.user.idKorisnika)" style="float: right;" > 
+                  <mat-icon>face</mat-icon> profil clana
+                </button>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-grid-tile>
+  </mat-grid-list>
+</div>
+    <!--
+    <mat-grid-tile>
+        <mat-list role="list">
+            <mat-divider></mat-divider>
+            <mat-list-item role="listitem">Vreme pristupa sistemu: {{vremePristupa | date: 'HH:mm:ss'}} </mat-list-item>
+            <mat-list-item role="listitem">Ulogovani ste kao bibliotekar: {{admin.imePrezime}} </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item role="listitem">Vas identifikacioni broj: {{admin.idKorisnika}}</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item role="listitem">Vase korisnicko ime: {{admin.username}}</mat-list-item>
+            <mat-divider></mat-divider>
+          </mat-list>
+
+    </mat-grid-tile>
+  -->

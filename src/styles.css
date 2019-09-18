@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bg {
+  background-image: url("/assets/4b.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity=50); 
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-paginator{
+    width: 90%;
+    background: none;
+  }
+  table.mat-elevation-z8 {
+    border-radius: 8px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+ 
+  .mat-paginator{
+    font-size: large;
+    opacity: 1;
+  }
+  .mat-header-cell{
+    
+    background-color:  #fa2212;
+    color: white;
+    opacity: 1;
+   }
+  
+
+  
+  

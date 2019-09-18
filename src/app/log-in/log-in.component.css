@@ -1,0 +1,73 @@
+
+.bg {
+  background-image: url("/assets/4b.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity=50); 
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  height: 500px;
+  width: 500px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+mat-form-field {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #f1f1f1;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+mat-form-field :focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #f44336;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+.lngBtn{
+  margin-left: 15%;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+.lngBtn:disabled{
+  border: 1px solid #fa2212;
+  
+}
+.lngBtn:enabled{
+  opacity: 0.7;
+}

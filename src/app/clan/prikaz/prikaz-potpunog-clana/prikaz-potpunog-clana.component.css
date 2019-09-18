@@ -1,0 +1,57 @@
+.bg {
+  background-image: url("/assets/4b.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity=50); 
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  .example-full-width {
+    width: 100%;
+  }
+  
+  p{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 110%;
+  }
+  .red {
+   color:brown;}
+  
+  .form {
+      display: flex;
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      opacity: 1;
+      background-color: white;
+   }  
+    
+    mat-form-field {
+      width: 13%;
+      padding: 10px;
+      margin: auto;
+      border: none;
+      background: #f1f1f1;
+      opacity: 1;
+      filter: alpha(opacity=100);
+     
+    }
+    mat-form-field :focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    
+    

@@ -1,0 +1,78 @@
+<div class="bg">
+<div  [hidden] = "onlyForView">
+    <form class="form" [formGroup]="primerakForm" (ngSubmit)="onSubmit(primerakForm.value.id)">
+      <mat-form-field>
+        <input i18n matInput placeholder="id primerka:" type="number" formControlName="id" required>
+      <button i18n class="btn" type="submit" [disabled]="!primerakForm.valid">Pronadji zaduzenje za primerak</button>
+    </mat-form-field>
+    </form>
+    <p >{{poruka}}</p>
+  </div>
+  <div *ngIf = "prikaz" >
+  <p i18n >Publikacija:</p>
+    <form class="form" [formGroup]="rezervacijaForm" >
+      <mat-form-field>
+        <input matInput placeholder="ISBN publikacije" type="text" formControlName="isbn" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="naziv publikacije" type="text" formControlName="nazivPublikacije" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="jezik" type="text" formControlName="jezik" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="autor " type="text" formControlName="autor" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="godina izdanja " type="text" formControlName="godinaIzdanja" readonly i18n-placeholder>
+      </mat-form-field>
+    </form>
+  </div>
+  
+  <div *ngIf = "prikaz">
+  <p i18n> Zaduzenje: </p>
+    <form class="form" [formGroup]="rezervacijaForm2" (ngSubmit)="onSubmit2(rezervacijaForm2.value)">
+      <mat-form-field>
+        <input matInput placeholder="id zaduzenja" type="text" formControlName="idZaduzenje" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="datum zaduzenja" type="text" formControlName="datumZaduzenja" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="rok za povratak" type="text" formControlName="rokZaPovratak" readonly i18n-placeholder>
+      </mat-form-field>
+      <button i18n class="btnRazduzi" type="submit" [disabled]="!primerakForm.valid"  [hidden] = "onlyForView">Razduzi primerak</button>     
+    </form>
+  </div>
+  
+  <div *ngIf = "prikaz">
+  <p i18n> Clan: </p>
+    <form class="form" [formGroup]="rezervacijaForm3">
+      <mat-form-field>
+        <input matInput placeholder="clanski broj" type="text" formControlName="idKorisnik" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="ime i prezime" type="text" formControlName="imePrezime" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="datum rodjenja" type="text" formControlName="datumRodjenja" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="mesto rodjenja" type="text" formControlName="grad" readonly i18n-placeholder>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <input matInput placeholder="fakultet" type="text" formControlName="fakultet" readonly i18n-placeholder>
+      </mat-form-field>   
+    </form>
+  </div>
+  </div>

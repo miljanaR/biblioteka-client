@@ -1,0 +1,21 @@
+
+  .mat-form-field {
+    margin: auto;
+    width: 20%;
+  }
+  .form {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  p{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  .red{
+    color: brown;
+  }
+  
+  

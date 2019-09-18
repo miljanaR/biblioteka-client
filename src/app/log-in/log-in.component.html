@@ -1,0 +1,23 @@
+<div class="bg">
+  <br><br>
+  <form [formGroup]="loginForm" >
+      <button class="lngBtn" [disabled] = "getLanguage() == 'en'" (click)="changeLang('en')" >
+        <img src="../assets/uk.png" alt="en" >
+        <span> EN</span>
+      </button>
+      <button [disabled] = "getLanguage() == 'sr'" class="lngBtn" (click)="changeLang('sr')">
+        <img src="../assets/sr.png" alt="en" >
+        <span> SR</span>
+      </button>
+
+    <mat-form-field>
+      <input matInput placeholder="korisnicko ime" type="text" formControlName="username" required i18n-placeholder>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="lozinka" type="password" formControlName="password" required i18n-placeholder*ngIf="errorMessage">
+      <p style="color: brown">{{errorMessage}}</p>
+    </mat-form-field>
+    <button class="btn" type="submit" (click) = "login(loginForm.value)" [disabled]="!loginForm.valid">prijavi se</button>
+  </form>
+</div>

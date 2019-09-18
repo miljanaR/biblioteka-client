@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mat-form-field {
+  margin-left: 10%;
+  width: 80%;
+  border: none;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  color: black;
+  
+}
+mat-form-field :focus {
+  background-color: #ddd;
+  outline: none;
+ 
+}
+.red {
+  color:brown;}
+p{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.container{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+ 

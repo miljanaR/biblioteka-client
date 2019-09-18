@@ -1,0 +1,73 @@
+
+<div class="bg">
+<br>
+<p i18n>Istorija zaduzenja:</p>
+<p class="red">{{porukaZaduzenja}}</p>
+<br> 
+<div  [hidden] = "!zaduzenjaPostoje">
+  <table mat-table [dataSource]="dataSourceZaduzenja"  class="mat-elevation-z8">
+  <ng-container matColumnDef="idZaduzenje">
+    <th i18n mat-header-cell *matHeaderCellDef > id zaduzenja </th>
+    <td mat-cell *matCellDef="let element"> {{element.idZaduzenje}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="datumZaduzenja">
+    <th i18n mat-header-cell *matHeaderCellDef > datum zaduzenja </th>
+    <td mat-cell *matCellDef="let element"> {{element.datumZaduzenja | date: 'MM-dd-yyyy'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="datumPovratka">
+    <th i18n mat-header-cell *matHeaderCellDef> datum povratka </th>
+    <td mat-cell *matCellDef="let element"> {{element.datumPovratka | date: 'MM-dd-yyyy'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="vracena">
+    <th i18n mat-header-cell *matHeaderCellDef> vracena </th>
+    <td mat-cell *matCellDef="let element"> {{element.vracena}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="rezervacija">
+    <th i18n mat-header-cell *matHeaderCellDef> po rezervaciji</th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.idRezervacija}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="naziv">
+    <th i18n mat-header-cell *matHeaderCellDef> naziv publikacije </th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.primerak.publikacija.nazivPublikacije}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="autor">
+    <th i18n mat-header-cell *matHeaderCellDef> autor </th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.primerak.publikacija.autor}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="isbn">
+    <th i18n mat-header-cell *matHeaderCellDef> isbn </th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.primerak.publikacija.isbn}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="jezik">
+    <th i18n mat-header-cell *matHeaderCellDef> jezik </th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.primerak.publikacija.jezik.nazivJezika}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="primerak">
+    <th i18n mat-header-cell *matHeaderCellDef> primerak </th>
+    <td mat-cell *matCellDef="let element"> {{element.rezervacija.primerak.id}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="akcija">
+      <th i18n mat-header-cell  *matHeaderCellDef > proveri dostupnost </th>
+      <td mat-cell *matCellDef="let row" >
+        <button  mat-button (click)="check(row.rezervacija.primerak.publikacija.isbn)" > 
+          <mat-icon>send</mat-icon>
+        </button>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsZaduzenja"></tr>
+    <tr mat-row  *matRowDef="let row; columns: displayedColumnsZaduzenja;"> </tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" ></mat-paginator>
+</div>
+</div>
+
+

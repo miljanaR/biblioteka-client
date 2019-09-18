@@ -1,0 +1,16 @@
+
+  .example-full-width {
+    width: 100%;
+  }
+  .mat-form-field {
+    margin:auto;
+    width: 100%;
+  }
+  p{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+  .red{
+    color: brown;
+  }

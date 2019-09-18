@@ -1,0 +1,86 @@
+
+<mat-toolbar color="warn"  *ngIf="(isLoggedIn | async) && (isAdmin | async)" class="position-fixed"> 
+  <span i18n>Biblioteka Silab</span>
+
+  <!-- This fills the remaining space of the current row -->
+
+    <button i18n mat-button routerLink ="/pocetnaAdmin">Pocetna Admin
+      <mat-icon>home</mat-icon></button>
+      <button i18n mat-button [matMenuTriggerFor]="belowMenu">Clan
+        <mat-icon>face</mat-icon>
+      </button>
+      <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button  mat-menu-item routerLink="/kreirajClana" i18n>Kreiraj</button>
+        <button  mat-menu-item routerLink="/clanovi" i18n>Prikazi</button>
+      </mat-menu>
+      <button i18n mat-button [matMenuTriggerFor]="menu">Publikacije
+        <mat-icon>library_books</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button i18n mat-menu-item routerLink = "/publikacije">Pronadji publikaciju </button>
+      </mat-menu>
+      <button i18n mat-button [matMenuTriggerFor]="beforeMenu">Zaduzi/Razduzi
+        <mat-icon>library_add</mat-icon>
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+      <button  mat-menu-item routerLink="/zaduziPrimerak" i18n>Zaduzi </button>
+        <button  mat-menu-item routerLink="/razduziPrimerak" i18n>Razduzi</button>
+      </mat-menu>
+      <span class="example-fill-remaining-space"></span>
+      <button i18n mat-button [matMenuTriggerFor]="bMenu" >Jezik
+          <mat-icon> language </mat-icon>
+        </button>
+        <mat-menu #bMenu="matMenu" xPosition="before">
+          <a  mat-menu-item href="" (click)="changeLang('en')">
+            <img src="../assets/uk.png" alt="en" style="widows: 35px;height:30px; margin-top:15%">
+            <span> EN</span>
+          </a>
+          <a  mat-menu-item href="" (click)="changeLang('sr')">
+            <img src="../assets/sr.png" alt="en" style="widows: 35px;height:30px; margin-top:15%">
+            <span> SR</span>
+          </a>
+        </mat-menu>
+        <button mat-button (click)="logout()">Odjavi se
+          <mat-icon> power_settings_new</mat-icon>
+        </button>
+</mat-toolbar>
+
+<mat-toolbar color="warn"  *ngIf="(isLoggedIn | async) && !(isAdmin | async)" class="position-fixed"> 
+    <span i18n>Biblioteka Silab</span>
+  
+    <!-- This fills the remaining space of the current row -->
+  
+        <button mat-button routerLink ="/" i18n>Pocetna clan
+          <mat-icon>home</mat-icon>
+        </button>
+        <button i18n mat-button [matMenuTriggerFor]="menu">Publikacije
+          <mat-icon>library_books</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+        <button i18n mat-menu-item routerLink = "/publikacije">Pronadji publikaciju </button>
+        </mat-menu>
+        <button i18n mat-button [matMenuTriggerFor]="m">Profil
+          <mat-icon> bubble_chart </mat-icon>
+        </button>
+        <mat-menu #m="matMenu">
+          <button i18n mat-menu-item routerLink = "/profil">Rezervacije i zaduzenja </button>
+          <button i18n mat-menu-item routerLink = "/istorija">Istorija zaduzenja</button>
+        </mat-menu>
+        <span class="example-fill-remaining-space"></span>
+        <button i18n mat-button [matMenuTriggerFor]="bMenu">Jezik
+            <mat-icon> language </mat-icon>
+          </button>
+        <mat-menu #bMenu="matMenu" xPosition="before">
+          <a mat-menu-item href="" (click)="changeLang('en')">
+            <img src="../assets/uk.png" alt="en" style="widows: 35px;height:30px; margin-top:15%">
+            <span> EN</span>
+          </a>
+          <a mat-menu-item href="" (click)="changeLang('sr')">
+            <img src="../assets/sr.png" alt="en" style="widows: 35px;height:30px; margin-top:15%">
+            <span> SR</span>
+          </a>
+        </mat-menu>
+        <button mat-button (click)="logout()">Odjavi se
+          <mat-icon> power_settings_new</mat-icon>
+        </button>
+  </mat-toolbar>

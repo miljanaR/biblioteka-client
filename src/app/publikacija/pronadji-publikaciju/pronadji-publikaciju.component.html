@@ -1,0 +1,60 @@
+<div class="bg">
+<div>
+  <form class="container" [formGroup]="publikacijeForm" (ngSubmit)="onSubmit(publikacijeForm.value)">
+    <mat-form-field>
+      <input matInput placeholder="ISBN publikacije" type="text" formControlName="isbn" i18n-placeholder>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Naziv publikacije" formControlName="nazivPublikacije" i18n-placeholder>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="autor publikacije" type="text" formControlName="autor" >
+      <button class="btn" i18n type="submit" [disabled]="!publikacijeForm.valid">Pronadji publikaciju</button>
+    </mat-form-field>
+  </form>
+</div>
+<div>
+<p class="red">{{poruka}}</p>
+</div>
+<div [hidden] = "!submited">
+  <table mat-table [dataSource]="dataSource"  class="mat-elevation-z8" >
+    <ng-container matColumnDef="isbn">
+      <th i18n mat-header-cell *matHeaderCellDef > isbn </th>
+      <td mat-cell *matCellDef="let element"> {{element.isbn}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="nazivPublikacije">
+      <th i18n mat-header-cell *matHeaderCellDef > naziv publikacije </th>
+      <td mat-cell *matCellDef="let element"> {{element.nazivPublikacije}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="jezik">
+      <th i18n mat-header-cell *matHeaderCellDef> jezik </th>
+      <td mat-cell *matCellDef="let element"> {{element.jezik.nazivJezika}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="autor">
+      <th i18n mat-header-cell *matHeaderCellDef> autor </th>
+      <td mat-cell *matCellDef="let element"> {{element.autor}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="godinaIzdanja">
+      <th i18n mat-header-cell *matHeaderCellDef> godina izdanja </th>
+      <td mat-cell *matCellDef="let element"> {{element.godinaIzdanja}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="akcija">
+        <th i18n mat-header-cell  *matHeaderCellDef > primerci </th>
+        <td mat-cell *matCellDef="let row" >
+        <button mat-button (click)="getRecord(row.isbn)" > 
+          <mat-icon >send</mat-icon>
+        </button>
+        </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row (click)="getRecord(row.isbn)" *matRowDef="let row; columns: displayedColumns;"> </tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[3, 5, 10]" ></mat-paginator>
+</div>
+</div>

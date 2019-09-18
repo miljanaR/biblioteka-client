@@ -1,0 +1,79 @@
+<div class="bg">
+<div class="container">
+  <mat-form-field>
+    <input matInput (keyup)="applyFilter($event.target.value)" (focus)="populateTable()" placeholder="Filter" i18n-placeholder>
+  </mat-form-field>
+  <mat-form-field>
+      <input matInput (keyup)="pretraga($event.target.value)" placeholder="pretraga po clanskom broju" i18n-placeholder>
+  </mat-form-field>
+</div>
+<p class="red">{{message}}</p>
+<div [hidden] = "!prikaz">
+<table mat-table [dataSource]="dataSource"  class="mat-elevation-z8" >
+  <ng-container matColumnDef="idKorisnika">
+    <th i18n mat-header-cell *matHeaderCellDef> clanski broj </th>
+    <td mat-cell *matCellDef="let element"> {{element.idKorisnika}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="imePrezime">
+    <th color="warn" i18n mat-header-cell *matHeaderCellDef > ime i prezime </th>
+    <td mat-cell *matCellDef="let element"> {{element.imePrezime}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="datumRodjenja">
+    <th i18n mat-header-cell *matHeaderCellDef> datum rodjenja </th>
+    <td mat-cell *matCellDef="let element"> {{element.datumRodjenja | date: 'MM-dd-yyyy'}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="grad">
+    <th i18n mat-header-cell *matHeaderCellDef> mesto rodjenja </th>
+    <td mat-cell *matCellDef="let element"> {{element.grad.nazivGrada}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="fakultet">
+    <th i18n mat-header-cell *matHeaderCellDef> fakultet </th>
+    <td mat-cell *matCellDef="let element"> {{element.fakultet.nazivFakulteta}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="brOtkazanih">
+    <th i18n mat-header-cell *matHeaderCellDef> broj otkazanih </th>
+    <td mat-cell *matCellDef="let element"> {{element.brOtkazanih}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="username">
+    <th i18n mat-header-cell *matHeaderCellDef> username </th>
+    <td mat-cell *matCellDef="let element"> {{element.username}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="aktion">
+    <th i18n mat-header-cell  *matHeaderCellDef > izmeni </th>
+    <td mat-cell *matCellDef="let row" >
+      <button  mat-button (click)="editRecord(row.idKorisnika)" > 
+        <mat-icon>edit</mat-icon>
+      </button>
+  </ng-container>
+
+  <ng-container matColumnDef="view">
+      <th i18n mat-header-cell  *matHeaderCellDef > pregledaj </th>
+    <td mat-cell *matCellDef="let row" >
+      <button  mat-button (click)="viewRecord(row.idKorisnika)" > 
+        <mat-icon>visibility</mat-icon>
+      </button>
+  </ng-container>
+
+  <ng-container matColumnDef="history">
+    <th i18n mat-header-cell *matHeaderCellDef> istorija </th>
+    <td mat-cell *matCellDef="let row">
+      <button mat-button (click)="getHistory(row.idKorisnika)">
+        <mat-icon>history</mat-icon>
+      </button>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row (click)="viewRecord(row.idKorisnika)" *matRowDef="let row; columns: displayedColumns;"> </tr>
+ 
+</table>
+<mat-paginator [pageSizeOptions]="[3, 5, 10]" ></mat-paginator>
+</div>
+</div>

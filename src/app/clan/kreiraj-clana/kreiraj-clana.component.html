@@ -1,0 +1,37 @@
+<div class="bg">
+<form class="form" [formGroup]="profileForm" (ngSubmit)="register(profileForm.value)">       
+  <mat-form-field>
+    <input matInput placeholder="Ime i prezime" type="text" formControlName="imePrezime" required i18n-placeholder>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="email" type="text" formControlName="username" required i18n-placeholder>
+    <p style="color:brown">{{message}}</p>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="password" type="text" formControlName="password" required i18n-placeholder>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [matDatepicker]="picker" placeholder="Datum rodjenja"  formControlName="datumRodjenja" required i18n-placeholder>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select placeholder="Fakultet" formControlName="idFakultet" i18n-placeholder>
+      <mat-option *ngFor="let fakultet of fakulteti" value="{{fakultet.idFakultet}}">{{fakultet.idFakultet}} {{fakultet.nazivFakulteta}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-select placeholder="Mesto rodjenja" formControlName="postanskiBroj" required i18n-placeholder>
+    <mat-option *ngFor = "let grad of gradovi" value="{{grad.postanskiBroj}}">{{grad.postanskiBroj}}{{grad.nazivGrada}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+    <button class="btn" i18n type="submit" [disabled]="!profileForm.valid">Kreiraj</button>
+    <p style="color: brown; " i18n *ngIf = "profileForm.status == 'VALID'" >Status forme: validna</p>
+    <p style="color: brown; " i18n *ngIf = "profileForm.status == 'INVALID'" >Status forme: nevalidna</p>
+</form>
+</div>

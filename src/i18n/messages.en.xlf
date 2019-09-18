@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="sr" datatype="plaintext" original="ng2.template" target-language="en">
+    <body>
+      <trans-unit id="5ca707824ab93066c7d9b44e1b8bf216725c2c22" datatype="html">
+        <source>Filter</source><target state="new">Filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d814f9faceac3e63d0c9462955af94d2359c777" datatype="html">
+        <source>pretraga po clanskom broju</source><target state="new">search by user id</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8396eb3b3f70a179a40e5f7517e3af76f1a4c32" datatype="html">
+        <source> clanski broj </source><target state="new"> user id  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34b52847c59fe54d54bc40e0c168e2737f75dbfa" datatype="html">
+        <source> ime i prezime </source><target state="new"> full name </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8176e557065a6738c8ff185b7af4e0f718ee384c" datatype="html">
+        <source> datum rodjenja </source><target state="new"> date of birth</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      
+      <trans-unit id="ad38064c9b7ebcdf2ac26da0dccc45301570d49a" datatype="html">
+        <source> mesto rodjenja </source><target state="new"> birth place </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">29</context></context-group></trans-unit>
+      <trans-unit id="6e30e202da44c6defccaf02937ea0deb1c541fb3" datatype="html">
+        <source> fakultet </source><target state="new"> faculty </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">34</context></context-group></trans-unit>
+      <trans-unit id="6318bcd1908bc2918560dfbb6972b0b44e02d5aa" datatype="html">
+        <source> broj otkazanih </source><target state="new"> number of canceled reservations </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">39</context></context-group></trans-unit>
+      <trans-unit id="7f4e2f14eaff079a3bab524de5f73e5da4d75757" datatype="html">
+        <source> username </source><target state="new"> username </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">44</context></context-group></trans-unit>
+      <trans-unit id="bee97cc3432b9869d78ef675e1efe38bd13738cf" datatype="html">
+        <source> izmeni </source><target state="new"> update </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">49</context></context-group></trans-unit>
+      <trans-unit id="9277fecc0703e89ac4e8abd2bca834d045917d88" datatype="html">
+        <source> pregledaj </source><target state="new"> preview </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context><context context-type="linenumber">57</context></context-group></trans-unit><trans-unit id="4166efc62d64a78e636ff73e365178891d38c6dc" datatype="html">
+        <source> istorija </source><target state="new"> history </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/clan-list/clan-list.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      
+      <trans-unit id="310e3de48f54eedb94bbcf17aa59164d4a982f50" datatype="html">
+        <source>clanski broj</source><target state="new">user id </target>
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">5</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">5</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">59</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">58</context></context-group></trans-unit>
+      <trans-unit id="7dfac7594ad26842bf9c5239c16feb4910654405" datatype="html">
+        <source>Ime i prezime</source><target state="new">full name</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">9</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">9</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">4</context></context-group></trans-unit>
+      <trans-unit id="7195bf669e39ebfa7a11b72146b42a1c010846ef" datatype="html">
+        <source>username</source><target state="new">username</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">13</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">13</context></context-group></trans-unit>
+      <trans-unit id="0b15bf6fa1e5bdabc9fde97a14bee63a5d5e62f6" datatype="html">
+        <source>email</source><target state="new">email address</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/log-in/log-in.component.html</context><context context-type="linenumber">14</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">8</context></context-group></trans-unit>
+      <trans-unit id="5be43daafadf786a86dfa147859833669ed19b57" datatype="html">
+        <source>Datum rodjenja</source><target state="new">date of birth</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">17</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">17</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">17</context></context-group></trans-unit>
+      <trans-unit id="7667e3312e9e75f5bf3a1f24ac77b6b10b271c30" datatype="html">
+        <source>Fakultet</source><target state="new">faculty</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">23</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">23</context></context-group></trans-unit>
+      <trans-unit id="adb389bdebe7c1dfb073f41cf7cbc66f22ee628e" datatype="html">
+        <source>Mesto rodjenja</source><target state="new">birth place</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context><context context-type="linenumber">28</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">29</context></context-group></trans-unit><trans-unit id="167d433e89b75d2b36e20ff8316ead3df5678050" datatype="html">
+        <source>Azuriraj</source><target state="new">Update</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit><trans-unit id="a1001527c6ec13b1380b6644efc51d7b474dc147" datatype="html">
+        <source>Status forme: validna</source><target state="new">Form status: valid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit><trans-unit id="ba8767d4b2bb658a0b186c728d3dc128bb741e3c" datatype="html">
+        <source>Status forme: nevalidna</source><target state="new">Form status: invalid</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/azuriraj-clana/azuriraj-clana.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      
+      
+      
+      
+      <trans-unit id="25bf3bf99cedfe169b90ed6b92db9f14898e6a21" datatype="html">
+        <source>Kreiraj</source><target state="new">Create</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context><context context-type="linenumber">33</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context><context context-type="linenumber">14</context></context-group></trans-unit><trans-unit id="e547562e99f38a64af33d1cd760d5cbe48cc4c73" datatype="html">
+        <source>Istorija zaduzenja:</source><target state="new">History of loans:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/istorija/istorija.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit><trans-unit id="03b90d718a970d0ad69fc529ba1cbf6d9bffad5f" datatype="html">
+        <source> datum povratka </source><target state="new"> returning date </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/istorija/istorija.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit><trans-unit id="119222683b0597fecb7cf5302143f0b00d521de4" datatype="html">
+        <source> proveri dostupnost </source><target state="new"> check availability  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/istorija/istorija.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit><trans-unit id="948a32d195a5aa05df7035897b6cc7571f4e73ed" datatype="html">
+        <source>rezervacija broj: <x id="INTERPOLATION" equiv-text="{{rezervacija.idRezervacija}}"/> </source><target state="new">reservation number: <x id="INTERPOLATION" equiv-text="{{rezervacija.idRezervacija}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">9</context></context-group></trans-unit><trans-unit id="e31f7d64b30de65c637bb5c27e14b891dc7cb06a" datatype="html">
+        <source>datum rezervisanja:  <x id="INTERPOLATION" equiv-text="{{rezervacija.datumRezervisanja | date: 'MM-dd-yyyy'}}"/> </source><target state="new">date of reservation:  <x id="INTERPOLATION" equiv-text="{{rezervacija.datumRezervisanja | date: 'MM-dd-yyyy'}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">11</context></context-group></trans-unit><trans-unit id="192279fe101ad0989a0951cd731387f573ba8f3c" datatype="html">
+        <source>datum isteka rezervacije:  <x id="INTERPOLATION" equiv-text="{{rezervacija.datumIstekaRezervacije | date: 'MM-dd-yyyy'}}"/></source><target state="new">expiry date of reservation: <x id="INTERPOLATION" equiv-text="{{rezervacija.datumIstekaRezervacije | date: 'MM-dd-yyyy'}}"/></target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">13</context></context-group></trans-unit><trans-unit id="83b8d858c48a7fe759eb4370da9ae72d25aa9bb1" datatype="html">
+        <source> publikacija:  </source><target state="new"> publication:  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit><trans-unit id="9d8bb9da90dc4c53c3cb250ab31a10dfb7c4722c" datatype="html">
+        <source>naziv: <x id="INTERPOLATION" equiv-text="{{rezervacija.primerak.publikacija.nazivPublikacije}}"/> </source><target state="new">title: <x id="INTERPOLATION" equiv-text="{{rezervacija.primerak.publikacija.nazivPublikacije}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">19</context></context-group></trans-unit><trans-unit id="3726d00a2189a32ffbdd69534c3e7def174d5af9" datatype="html">
+        <source>autor: <x id="INTERPOLATION" equiv-text="{{rezervacija.primerak.publikacija.autor}}"/> </source><target state="new">author: <x id="INTERPOLATION" equiv-text="{{rezervacija.primerak.publikacija.autor}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">21</context></context-group></trans-unit><trans-unit id="da9e3593c839cb03f62a9b0535a1dca3d9ab6941" datatype="html">
+        <source> 
+              <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>details<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/> detalji
+            </source><target state="new"> 
+              <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>details<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/> details
+            </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">23</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">66</context></context-group></trans-unit><trans-unit id="92d6f575405718ee5a4a50f92eeb5e1c574f0d7a" datatype="html">
+        <source>zaduzenje broj: <x id="INTERPOLATION" equiv-text="{{zaduzenje.idZaduzenje}}"/> </source><target state="new">loan number: <x id="INTERPOLATION" equiv-text="{{zaduzenje.idZaduzenje}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">52</context></context-group></trans-unit><trans-unit id="acb1189d2c0487e5309f3de797974ad216e542a9" datatype="html">
+        <source>datum zaduzenja:  <x id="INTERPOLATION" equiv-text="{{zaduzenje.datumZaduzenja | date: 'MM-dd-yyyy'}}"/> </source><target state="new">date of loan:  <x id="INTERPOLATION" equiv-text="{{zaduzenje.datumZaduzenja | date: 'MM-dd-yyyy'}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">54</context></context-group></trans-unit><trans-unit id="6e18b9b09bb9271e0245fa4f02c5f6846bddc208" datatype="html">
+        <source>rok za povratak:  <x id="INTERPOLATION" equiv-text="{{zaduzenje.rokZaPovratak | date: 'MM-dd-yyyy'}}"/></source><target state="new">return deadline:  <x id="INTERPOLATION" equiv-text="{{zaduzenje.rokZaPovratak | date: 'MM-dd-yyyy'}}"/></target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">56</context></context-group></trans-unit><trans-unit id="cb9bcbe58dbfa35e9b562eaf2c0fa8a611fa037f" datatype="html">
+        <source>isbn: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.isbn}}"/> </source><target state="new">isbn: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.isbn}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">60</context></context-group></trans-unit><trans-unit id="a558b3759b4f7d340119f8ad1431d3f5de69d159" datatype="html">
+        <source>naziv: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.nazivPublikacije}}"/> </source><target state="new">title: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.nazivPublikacije}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">62</context></context-group></trans-unit><trans-unit id="d8f9657b96da3f59128c28761e0e55cd18bf907b" datatype="html">
+        <source>autor: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.autor}}"/> </source><target state="new">author: <x id="INTERPOLATION" equiv-text="{{zaduzenje.rezervacija.primerak.publikacija.autor}}"/> </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">64</context></context-group></trans-unit><trans-unit id="0a40f4531f2a9b09669666db01b9fcc01378c0f5" datatype="html">
+        <source> 
+            <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>face<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/> profil clana
+          </source><target state="new"> 
+            <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>face<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/> user profile
+          </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/admin/pocetna-admin/pocetna-admin.component.html</context><context context-type="linenumber">88</context></context-group></trans-unit><trans-unit id="0660a72b354dfaeeb7952c2a886b512b407e61a9" datatype="html">
+        <source>Pocetna Admin
+      <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>home<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/></source><target state="new">Home Admin
+      <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>home<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit><trans-unit id="935632e8618a4c20b894573aed28c04edecaf54c" datatype="html">
+        <source>Clan
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>face<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </source><target state="new">Member
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>face<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit><trans-unit id="801472325321f3753d3d2be3a439810139513ae1" datatype="html">
+        <source>Prikazi</source><target state="new">View</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit><trans-unit id="5262933511d2c83c333e98fc3148e3431bc98f98" datatype="html">
+        <source>Publikacije
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_books<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </source><target state="new">Publications
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_books<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit><trans-unit id="f9fd1a3db5d86a9940685c93b84453a874688e90" datatype="html">
+        <source>Pronadji publikaciju </source><target state="new">Find publication </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit><trans-unit id="c8784871910c5e9363de65f33a91e0ebb12815fe" datatype="html">
+        <source>Zaduzi/Razduzi
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_add<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </source><target state="new">Issue/Return
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_add<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit><trans-unit id="34ca27c7813c632c1fc39dde2dbe2de971e22a97" datatype="html">
+        <source>Zaduzi </source><target state="new">Issue </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit><trans-unit id="cbe71a0b5ced90b13af42146bcd868705bd41acc" datatype="html">
+        <source>Razduzi</source><target state="new">Return</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit><trans-unit id="81ce6c48ba1ce934c40bcd5fd0f1985dea77f4d0" datatype="html">
+        <source>Jezik
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> language <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </source><target state="new">Language
+        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> language <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="2d59b760e9ff3e4921923d942b9669f03496b376" datatype="html">
+        <source>Biblioteka Silab</source><target state="new">Silab Library</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context><context context-type="linenumber">3</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context><context context-type="linenumber">54</context></context-group></trans-unit><trans-unit id="cdaf1c3b15b73d872ecf8a4daf55f6402d2115b0" datatype="html">
+        <source>Pocetna clan
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>home<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </source><target state="new">Home User
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>home<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit><trans-unit id="69356873d5db4d9a6de40beb40f51e61a2a22f3b" datatype="html">
+        <source>Publikacije
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_books<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </source><target state="new">Publications
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/>library_books<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit><trans-unit id="09f053a7228512644ea99b39466ec51ee97b0c48" datatype="html">
+        <source>Profil
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> bubble_chart <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </source><target state="new">Profile
+          <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> bubble_chart <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit><trans-unit id="d308d62401fac5287c0a9d7c68c046d83b169bf8" datatype="html">
+        <source>Rezervacije i zaduzenja </source><target state="new">Reservations and loans </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit><trans-unit id="b4d9b7715f3a0ac665e357cff36882b26f7b56c8" datatype="html">
+        <source>Istorija zaduzenja</source><target state="new">History of loans</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit><trans-unit id="9bc425a7e1f9305c0296970e8f3c8d887c7fcc0a" datatype="html">
+        <source>Jezik
+            <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> language <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+          </source><target state="new">Language
+            <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon>"/> language <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon>"/>
+          </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76b324e64fb38eeb7ed03d1c682dd2ca062fde40" datatype="html">
+        <source>ISBN publikacije</source><target state="new">ISBN</target>
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">5</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">6</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">16</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">15</context></context-group></trans-unit>
+      <trans-unit id="06ae726fb2d7e9c70bfcc0f52a328715c5db7d5e" datatype="html">
+        <source>Naziv publikacije</source><target state="new">title of publication</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">9</context></context-group></trans-unit>
+      <trans-unit id="65cc2263618a0601a2f76d50e9b43e3048b865a2" datatype="html">
+        <source>Pronadji publikaciju</source><target state="new">find publication</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">14</context></context-group></trans-unit>
+      <trans-unit id="9593c2b426777b267afe825c07d5c269b4e8391c" datatype="html">
+        <source> isbn </source><target state="new"> isbn </target>
+        
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">24</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">65</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">147</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">32</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">107</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">45</context></context-group></trans-unit>
+      <trans-unit id="1411362aba21326432851bd7e3cd9dcd9843b99a" datatype="html">
+        <source> naziv publikacije </source><target state="new"> titile of publication </target>
+        
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">29</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">60</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">137</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">27</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">97</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">35</context></context-group></trans-unit>
+      <trans-unit id="3be095050d4c722379c6431b3a71b8552cce3503" datatype="html">
+        <source> jezik </source><target state="new"> language </target>
+        
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">34</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">152</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">42</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">112</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">50</context></context-group></trans-unit>
+      <trans-unit id="b46cce38fb0486c2a9ce4e2d1379852608c92edf" datatype="html">
+        <source> autor </source><target state="new"> author </target>
+        
+        
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">39</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">70</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">142</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">37</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">102</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">40</context></context-group></trans-unit>
+      <trans-unit id="b6f9407a6a61b322f958c3cfefe054cc726227fa" datatype="html">
+        <source> godina izdanja </source><target state="new">year of publication </target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">44</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">80</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">47</context></context-group></trans-unit>
+      <trans-unit id="bb7a3d5b18d0364024b2283eba59e8a15aee5544" datatype="html">
+        <source> primerci </source><target state="new"> copies </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/publikacija/pronadji-publikaciju/pronadji-publikaciju.component.html</context><context context-type="linenumber">49</context></context-group></trans-unit>
+      <trans-unit id="6764ab1394798eae2528351114b8a46154c7f190" datatype="html">
+        <source>naziv publikacije</source><target state="new">title of publication  </target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">10</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">20</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">19</context></context-group></trans-unit>
+      <trans-unit id="a1c3c670ed75760fbb7ab0b16f211f859adfacc7" datatype="html">
+        <source>jezik</source><target state="new">language</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">14</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">24</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">23</context></context-group></trans-unit>
+      <trans-unit id="9bb848543b867f56f8b7740af4fc87571eb74d5d" datatype="html">
+        <source>autor </source><target state="new">author </target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">18</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">28</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">27</context></context-group></trans-unit>
+      <trans-unit id="71e03fd22f8918d8aa40021fb04615dac994caa3" datatype="html">
+        <source>godina izdanja </source><target state="new">year of publication </target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">22</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">32</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">31</context></context-group></trans-unit>
+      <trans-unit id="b55520a7b5cbd5bf6188a5250f20fac32fd72333" datatype="html">
+        <source>Primerci:</source><target state="new">Copies:</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">25</context></context-group></trans-unit>
+      <trans-unit id="2d707ae0dacebf9b81d9b45880a0f42fbdff26d4" datatype="html">
+        <source> id </source><target state="new"> id </target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">31</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">40</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">7</context></context-group></trans-unit>
+      <trans-unit id="5cd78747fb104cbc01b5cae4839d5baa6472aae1" datatype="html">
+        <source> datum stampe </source><target state="new"> printing date </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">36</context></context-group></trans-unit>
+      <trans-unit id="fd7bdac37b113cd22ccd029f29c46da6ced09864" datatype="html">
+        <source> slobodan </source><target state="new"> free </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">41</context></context-group></trans-unit><trans-unit id="cd8bf95ce3df36e2b29ce1fddb370ea2a1053653" datatype="html">
+        <source> ne</source><target state="new"> no</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit><trans-unit id="96a48a905511b06c8f19951a7b8d89238c64a022" datatype="html">
+        <source> da</source><target state="new"> yes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="227e5049f58b41d8737d151232e4739dc1b192c6" datatype="html">
+        <source> Rezervisi </source><target state="new"> Reserve </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context><context context-type="linenumber">49</context></context-group></trans-unit><trans-unit id="50d846247036397a63c9f408647c6adc68a6824c" datatype="html">
+        <source> detalji </source><target state="new"> details </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/primerak/primerak/primerak.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b891566d9c693bb9d3b911a522d83e7dea3c7a93" datatype="html">
+        <source>fakultet</source><target state="new">faculty</target>
+        
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">23</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">74</context></context-group></trans-unit>
+      <trans-unit id="21e97e3ae4c67d5f051b242de58d5901bc3a2b0a" datatype="html">
+        <source>grad</source><target state="new">city</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">27</context></context-group></trans-unit>
+      <trans-unit id="3a076f1ceaa22fd4ed35fbf6c57be95a2c445110" datatype="html">
+        <source>broj otkazanih revervacija</source><target state="new">number of canceled reservations</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">31</context></context-group></trans-unit>
+      
+      <trans-unit id="6c659cfd734cfd294748cd563d5afd158f10b56a" datatype="html">
+        <source> Trenutne rezervacije clana: </source><target state="new"> Current reservations: </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">36</context></context-group></trans-unit>
+      <trans-unit id="e065073296b8b4eaefbf1a0eb8b972a5c0ac20bc" datatype="html">
+        <source> datum rezervisanja </source><target state="new"> date of reservation </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">45</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">12</context></context-group></trans-unit>
+      <trans-unit id="c1cd08d8c6647094e6adcf5f3795e64044fb6c52" datatype="html">
+        <source> datum isteka rezervacije </source><target state="new"> expiry date of reservation</target> 
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">50</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">17</context></context-group></trans-unit>
+      <trans-unit id="69e4a82e6ad19001317ea2a6b9e912174479bc83" datatype="html">
+        <source> ostvarena </source><target state="new"> accomplished </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">55</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">22</context></context-group></trans-unit>
+      <trans-unit id="1d41b57bbea44dff8f34b1f95bb446f35d18783a" datatype="html">
+        <source> broj primerka </source><target state="new"> id of copy: </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">85</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">52</context></context-group></trans-unit>
+      <trans-unit id="513f68a44a349e30635fd0e318e77793f0c37a74" datatype="html">
+        <source> datum Stampe </source><target state="new">printing date </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">90</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">57</context></context-group></trans-unit>
+      <trans-unit id="8a01774cd5d0ec6a41e33f54863bd5725c780cbd" datatype="html">
+        <source> zaduzi </source><target state="new"> issue </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">95</context></context-group></trans-unit>
+      <trans-unit id="90dca19b387c64cc6c3099c4a5685cb23f798655" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{porukaZaduzenja}}"/></source><target state="new"> <x id="INTERPOLATION" equiv-text="{{porukaZaduzenja}}"/></target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">67</context></context-group></trans-unit>
+      <trans-unit id="a9e92d249e9db39fac248989ea9ac0c90778b887" datatype="html">
+        <source>  Trenutna zaduzenja clana: </source><target state="new">  Current loans: </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">108</context></context-group></trans-unit>
+      <trans-unit id="7c4638784a1a5a4e2fb1b0c18ad422ea739b973d" datatype="html">
+        <source> id zaduzenja </source><target state="new"> loan id </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">112</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">10</context></context-group></trans-unit>
+      <trans-unit id="3b157bd646254f83717c1ddf289b1649a23d4199" datatype="html">
+        <source> datum zaduzenja </source><target state="new"> date of loan </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">117</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">77</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">15</context></context-group></trans-unit>
+      <trans-unit id="aa64fb19a6dbce0ec1bb33f08e2b342feddeb6d9" datatype="html">
+        <source> rok za povratak </source><target state="new"> return deadline</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">122</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">82</context></context-group></trans-unit>
+      <trans-unit id="e2efb28a6bfd49fa86f46c899a0774e278cfccb2" datatype="html">
+        <source> vracena </source><target state="new"> returned </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">127</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">87</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">25</context></context-group></trans-unit>
+      <trans-unit id="a32c14d34b7d551e0936b876a2320accc6a320d0" datatype="html">
+        <source> po rezervaciji</source><target state="new"> reservation </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">132</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">92</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">30</context></context-group></trans-unit>
+      <trans-unit id="9742c76342c9e58604f9889fec246072fb12313f" datatype="html">
+        <source> primerak </source><target state="new"> id of copy </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">157</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">117</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/istorija/istorija.component.html</context><context context-type="linenumber">55</context></context-group></trans-unit>
+      <trans-unit id="ded285f1308c4d7b914df62f0089ca65fa261548" datatype="html">
+        <source> razduzi </source><target state="new"> return </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/prikaz/prikaz-potpunog-clana/prikaz-potpunog-clana.component.html</context><context context-type="linenumber">162</context></context-group></trans-unit>
+      <trans-unit id="6dc259af1f7dda31f1cb8aa84b4d8d926f7bcc67" datatype="html">
+        <source> Vase trenutne rezervacije </source><target state="new"> Current reservations </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">3</context></context-group></trans-unit>
+      <trans-unit id="1aaa006c730520328d1d95b4dc34c90ca1f26e0f" datatype="html">
+        <source> Vasa trenutna zaduzenja </source><target state="new"> Current loans </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/clan/pocetna/clan-pocetna/clan-pocetna.component.html</context><context context-type="linenumber">68</context></context-group></trans-unit>
+      <trans-unit id="5e81b1149a1134e14810d13367ff20fae7dff117" datatype="html">
+        <source>id primerka:</source><target state="new"> id of copy:</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">5</context></context-group></trans-unit>
+      <trans-unit id="d6adedba1f9ee1b93a6cf86ad4b50ba9a4f1ea16" datatype="html">
+        <source>Pronadji rezervaciju za primerak</source><target state="new">Find reservation for copy</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">6</context></context-group></trans-unit>
+      <trans-unit id="ded32b4fce5ad569b0f2faa1fefdf8c370754a7d" datatype="html">
+        <source>Publikacija:</source><target state="new">Publication:</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">13</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">12</context></context-group></trans-unit>
+      
+      <trans-unit id="4193ac868157378bc212cdf39740a06e6280a9dd" datatype="html">
+        <source> Rezervacija: </source><target state="new"> Reservation: </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">38</context></context-group></trans-unit>
+      <trans-unit id="9176760b2dfeaabb64a34e720dbda624d2b4bdb5" datatype="html">
+        <source>id rezervacije</source><target state="new">reservation id</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">41</context></context-group></trans-unit>
+      <trans-unit id="6ba406630f243490308679d43077029fc67f40e8" datatype="html">
+        <source>datum rezervisanja</source><target state="new">date of reservation</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">45</context></context-group></trans-unit>
+      <trans-unit id="db428878685a375027e38daf50901e01f43121c8" datatype="html">
+        <source>datum isteka rezervacije</source><target state="new">expiry date</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">49</context></context-group></trans-unit>
+      <trans-unit id="6dc75403e21a4f4939df04bb6f342d993b934be2" datatype="html">
+        <source>Zaduzi primerak</source><target state="new">Issue copy</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">51</context></context-group></trans-unit>
+      <trans-unit id="28be95b9fdb327b891300b9e52e7a1930ffd3833" datatype="html">
+        <source> Clan: </source><target state="new"> Member: </target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">56</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">55</context></context-group></trans-unit>
+      <trans-unit id="bc2d9aac34b19f28ae13cc91dd3b0033ce898fd5" datatype="html">
+        <source>ime i prezime</source><target state="new">full name</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">63</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">62</context></context-group></trans-unit>
+      
+      <trans-unit id="915061b2edd4a163e5af74e5731fb749ebe4d1be" datatype="html">
+        <source>datum rodjenja</source><target state="new">date of birth</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">67</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">66</context></context-group></trans-unit>
+      <trans-unit id="6278b5ef33d773072d15f45984555507811bf9a2" datatype="html">
+        <source>mesto rodjenja</source><target state="new">birth place</target>
+        
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/zaduzi-primerak/zaduzi-primerak.component.html</context><context context-type="linenumber">71</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">70</context></context-group></trans-unit>
+      <trans-unit id="837ae29ea0c15f09c44800c8a682009bd26f6159" datatype="html">
+        <source>Pronadji zaduzenje za primerak</source><target state="new">Find loan for copy</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">6</context></context-group></trans-unit>
+      <trans-unit id="0a078fed65bf016ff15836f08abf2ab4a60ff583" datatype="html">
+        <source> Zaduzenje: </source><target state="new"> Loan: </target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">37</context></context-group></trans-unit>
+      <trans-unit id="2c91f469cb89b5fa608aa738f3cacbae5b962cb7" datatype="html">
+        <source>id zaduzenja</source><target state="new">loan id</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">40</context></context-group></trans-unit>
+      <trans-unit id="1bbfaa3cc71bc90df82df17cc9ab26829eee45a2" datatype="html">
+        <source>datum zaduzenja</source><target state="new">date of loan</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">44</context></context-group></trans-unit>
+      <trans-unit id="daaf6c5131ddff9fae278200507beda2f8ea4524" datatype="html">
+        <source>rok za povratak</source><target state="new">return deadline</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">48</context></context-group></trans-unit>
+      <trans-unit id="aa1b9702de6c3b96c5d9b154770f75fcfe35d01a" datatype="html">
+        <source>Razduzi primerak</source><target state="new">return copy</target>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/primerak/razduzi-primerak/razduzi-primerak.component.html</context><context context-type="linenumber">50</context></context-group></trans-unit><trans-unit id="d8b81951d25439864e92f750f7c99d7426d6517c" datatype="html">
+        <source>password</source><target state="new">password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/clan/kreiraj-clana/kreiraj-clana.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </body>
+  </file>
+</xliff>
